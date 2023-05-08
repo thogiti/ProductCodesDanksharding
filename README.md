@@ -9,7 +9,7 @@ This repo is a simple demonstration of how product codes can be used for error c
 
 You can read the full blog post at [thogiti.github.io](https://thogiti.github.io/enhancing-ethereum-scalability-with-product-codes-and-danksharding/).
 
-You can find the sage code at [thogiti.github.io](https://thogiti.github.io/).
+You can find the sage code at [thogiti.github.io](https://github.com/thogiti/ProductCodesDanksharding/blob/main/ProductCodesDanksharding.sage).
 
 The script first creates two Hamming codes over the binary field `GF(2)`, with codeword lengths `3` and `7` respectively. These two codes are then combined to form a product code. A random data vector of appropriate length is generated and encoded using the product code. The encoded data is then transmitted through a communication channel with a static error rate, introducing errors in the transmitted data. The received data is then decoded using the product code’s decoding algorithm and unencoded to recover the original message.
 
